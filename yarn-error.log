@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\dev\nodejs\node.exe C:\Program Files (x86)\dev\yarn\bin\yarn.js add lodash
+
+PATH: 
+  C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dev\Git\cmd;C:\Program Files\dev\nodejs\;C:\Program Files (x86)\dev\yarn\bin\;C:\Users\10321\AppData\Local\Microsoft\WindowsApps;C:\Users\10321\AppData\Roaming\npm;C:\Users\10321\AppData\Local\Yarn\bin;C:\Program Files\dev\MongoDB\Server\4.0\bin;
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+npm manifest: 
+  {
+    "name": "vue-tool",
+    "version": "1.0.0",
+    "description": "vue tool",
+    "main": "src/index.js",
+    "keywords": [
+      "vue",
+      "utils",
+      "mixins"
+    ],
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "https://github.com/quixoter",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/quixoter/vue-tool.git"
+    },
+    "dependencies": {
+      "lodash": "^4.17.11"
+    },
+    "bugs": {
+      "url": "https://github.com/quixoter/vue-tool/issues"
+    },
+    "homepage": "https://github.com/quixoter/vue-tool#readme",
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
